@@ -22,7 +22,3 @@ Promise.any(promises)
     // Handle errors if no promise resolves
     console.log('All promises rejected:', error);
   });
-.catch((error) => {
-	// Handle errors if no promise resolves
-    console.log('All promises rejected:', error);
-});
